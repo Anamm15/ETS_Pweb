@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+}
+
+.kelas__container {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.kelas__title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.kelas__tabel {
+    min-width: 300px;
+    width: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kelas__tabel th,
+.kelas__tabel td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+.kelas__tabel th {
+    background: linear-gradient(to right, #2ECC71, #27AE60);
+    color: white;
+}
+
+.kelas__tabel tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+.kelas__tabel tr:hover {
+    cursor: pointer;
+    background-color: #0072FF;
+}
+
+.kelas__materi__container {
+    min-width: 800px;
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kelas__materi__header {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2rem;
+    width: 100%;
+}
+
+.kelas__materi__header p {
+    margin-top: .7rem;
+    font-size: .9rem;
+}
+
+.kelas__materi__header button {
+    background: linear-gradient(to right, #00C6FF, #0072FF);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-top: .6rem;
+}
+
+.kelas__materi__body {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.kelas__materi__body button {
+    background: linear-gradient(to right, #00C6FF, #0072FF);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    width: 25%;
+}
+
+.material {
+    display: flex;
+    justify-content: space-between;
+}
+
+.material button {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#button__delete {
+    background: transparent;
+    color: black;
+    width: max-content;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f6f9;
+}
+
+.presensi__container {
+    width: 100%;
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presensi__detail {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.presensi__detail p {
+    margin-top: .7rem;
+    font-size: .9rem;
+}
+
+.presensi__detail button {
+    background: linear-gradient(to right, #00C6FF, #0072FF);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-top: .6rem;
+}
+
+.presensi__detail__content {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+}
+
+.presensi__status {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.presensi__detail__content p {
+    font-size: 1.2rem;
+}
+
+.presensi__pertemuan {
+    margin-top: 3rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.presensi__pertemuan table td {
+    text-align: center;
+}
+
+.button {
+    background: linear-gradient(to right, #00C6FF, #0072FF);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.presensi__keterangan {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.presensi__keterangan div {
+    border-radius: 50%;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
